@@ -1,9 +1,9 @@
 import banner from "../../assets/teaching.webp";
 const Banner = () => {
     return (
-        <div className=" md: flex  gap-20 lg: flex  justify-evenly items-center ">
+        <div className=" flex-col-reverse lg: flex  lg:justify-evenly lg:items-center ">
             
-            <div><div className="card bg-base-100 w-96 ">
+            <div><div className="card bg-base-100  ">
   <div className="card-body">
     <h2 className="card-title text-2xl">Let Us Help You With College Admission</h2>
     <p className="">Lorem ipsum dolor sit amet conlabore tenetur doloremque inventore voluptas. Temporibus voluptatum quod laudantium!</p>
