@@ -1,12 +1,13 @@
-import Navbar from "./Navbar";
-import Bg from "./Bg";
+import Banner from "./Banner";
+import BestPac from "./BestPac";
+import MidPart from "./MidPart";
 
 const Home = () => {
     return (
         <div>
-           <Navbar></Navbar>
-           <Bg></Bg>
-           
+            <Banner></Banner>
+            <MidPart></MidPart>
+            <BestPac></BestPac>
         </div>
     );
 };
